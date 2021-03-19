@@ -150,14 +150,15 @@ li{
 }
 
 .hero-image {
-  background:url("https://i.ibb.co/CJk9pg7/i-Stock-889808916-Recovered-v2.jpg");
+  background: url("https://i.ibb.co/CJk9pg7/i-Stock-889808916-Recovered-v2.jpg");
   display: flex;
   flex-direction: column;
-  height: 100% ;
+  height: auto;
   align-items: center;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   padding: 2em;
+  border-bottom: 5px solid #dd9a32;
 }
 
 #large-heading {
